@@ -1,0 +1,146 @@
+*{
+  font-family: Arial;
+}
+
+ul{
+  display: none;
+}
+
+input:checked  ~ ul{
+  display:block;
+}
+
+input {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid sandbrown;
+  border-radius: 15px;
+  width: 130px;
+  height: 60px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+  background: yellow;
+}
+
+/* Estilo del boton cuando se pasa el mouse por encima*/
+label:hover{
+  background: sandybrown;
+}
+
+/* Estilo del boton cuando el menú está expandido*/
+input:checked ~ label {
+  background: sandybrown; 
+}
+
+ul{
+  margin-top:0;
+  padding: 0;
+  width: auto;
+
+}
+
+
+li {
+  display: border;
+  background: lightyellow;
+  margin: 300;
+  padding: 25px;
+  list-style: none;
+  border-bottom: 1px solid grey;
+}
+
+/*Estilo cuando el mouse pasa encima de cada link del menu*/
+li:hover {
+  filter: brightness(100%);
+}
+
+body {
+  background: url(https://pixabay.com/get/gda00f6f6570b609098c2f4aac08ff8ce6a2f77e2cb89585b7a09b6b899bfdfac60c7208161de665b4449fd23299c0e16_1280.jpg);
+}
+
+cont {
+  width: 640px;
+}
+h1 {
+  font-family: 'Great Vibes', 
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 4px 4px 2px #909090;
+}
+
+cont {
+  width: 640px;
+}
+h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 4px 4px 2px #909090;
+}
+
+.centrado {
+  margin: auto;
+  width: 640px;
+  padding: 10px;
+}
+
+.boton {
+  text-align: center;
+}
+
+.btn {
+  font-family: 'Great Vibes', 
+  font-size: 25px;
+  text-align: center;
+  background-color: rgb(255,255,64);
+            background-color: yellow;
+          border-radius: 50px;
+          border-width: 0;
+          border: 3px solid blck;
+          box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
+          color: darksandybrown;
+          cursor: pointer;
+          display: inline-block;
+          font-family: Arial,sans-serif;
+          font-size: 1em;
+          height: 50px;
+          padding: 0 25px;
+          transition: all 200ms;
+        
+:hover{
+background-color: #b7e6af;
+            transform: scale(1.05);
+              }  
+}
+
+#autor {
+  font-style: italic;
+}
+
+#intro {
+  font-family: Roman;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#q {
+  text-align: center;
+  font-family: Roman;
+  font-size: 1.5em;
+  border: 1px solid lightgrey;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: -10px 10px 10px #A0A0A0;
+}
+footer {
+  margin-top: 90px;
+  background-color: lightyellow;
+  text-align: center;
+	
+}
